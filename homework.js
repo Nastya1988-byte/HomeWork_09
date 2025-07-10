@@ -39,9 +39,9 @@ function binarySearch(arr, value, comparator = (a, b) => a - b) {
         } else {
             end = mid - 1;
         }
-        return -1;
-    }
 
+    }
+    return -1;
 
 }
 
